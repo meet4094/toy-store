@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '1.0.8',
+        'version' => '1.0.8.0',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'b5ad374684ad128c708a7421cb7e0a4207a19aa7',
+        'name' => 'bluehost/bluehost-site-migrator',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'bluehost/bluehost-site-migrator' => array(
+            'pretty_version' => '1.0.8',
+            'version' => '1.0.8.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'b5ad374684ad128c708a7421cb7e0a4207a19aa7',
+            'dev_requirement' => false,
+        ),
+        'symfony/process' => array(
+            'pretty_version' => 'v3.4.47',
+            'version' => '3.4.47.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/process',
+            'aliases' => array(),
+            'reference' => 'b8648cf1d5af12a44a51d07ef9bf980921f15fca',
+            'dev_requirement' => false,
+        ),
+        'wp-forge/wp-plugin-check' => array(
+            'pretty_version' => '1.0',
+            'version' => '1.0.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../wp-forge/wp-plugin-check',
+            'aliases' => array(),
+            'reference' => '3497a1bc557ae1108c11fb6cc694ae97ae2d4fc6',
+            'dev_requirement' => false,
+        ),
+    ),
+);
